@@ -1,12 +1,12 @@
 import React from 'react';
 import Menu from './Menu';
 
-const Header = (props) => (
+const Header = () => (
 
     <div className="header__background">
         <div className="header__container">
             <div className="header__menuContainer">
-                <Menu history={props.history}/>
+                <Menu />
                 {/*<h3>Menu</h3>*/}
             </div>
             <div className="header__logo">
@@ -22,5 +22,7 @@ const Header = (props) => (
     </div>
     
 );
+
+//<Menu history={props.history}/>
 
 export default Header;

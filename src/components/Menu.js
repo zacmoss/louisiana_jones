@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom';
 
 
 class Menu extends React.Component {
-    constructor(props) {
-      super(props);
+    constructor() {
+      super();
   
       this.handleOutsideClick = this.handleOutsideClick.bind(this);
       this.handleClick = this.handleClick.bind(this);
@@ -34,7 +34,7 @@ class Menu extends React.Component {
         this.handleClick();
     }
   
-    render(props) {
+    render() {
       return (
         <div
             className="noneYet"
@@ -56,7 +56,7 @@ class Menu extends React.Component {
               <Link to="/construction" onClick={this.handleClick}>About Me</Link>
               <a href="/video.html" onClick={this.handleClick}>Video</a>
               <Link to="/construction" onClick={this.handleClick}>Contact Zac</Link>
-           </div>
+            </div>
            )}
         </div>
       );

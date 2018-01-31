@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import HomePage from '../components/HomePage';
 import Header from '../components/Header';
@@ -13,9 +13,9 @@ import QuotesPage from '../components/QuotesPage';
 export const history = createHistory();
 
 const AppRouter = () => ( // Client-Side Routing
-    <Router history={history}>
+    <BrowserRouter>
         <div>
-            <Header history={history}/>
+            <Header />
             <hr  className="main__hr" />
             <Switch>
                 <Route path="/" component={HomePage} exact={true}/>
@@ -27,7 +27,11 @@ const AppRouter = () => ( // Client-Side Routing
             </Switch>
             <Footer />
         </div>
-        </Router>
+    </BrowserRouter>
 );
+
+//<BrowserRouter history={history}>
+
+//<Header history={history}/>
 
 export default AppRouter;
