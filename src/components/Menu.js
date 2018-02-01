@@ -55,7 +55,6 @@ class Menu extends React.Component {
               <Link to="/construction" onClick={this.handleClick}>Best Pics</Link>
               <Link to="/aboutMePage" onClick={this.handleClick}>About Me</Link>
               <a href="https://www.youtube.com/watch?v=y7Snin6z9qM&t=1s" onClick={this.handleClick}>Euro Video</a>
-              <Link to="/construction" onClick={this.handleClick}>Contact Zac</Link>
             </div>
            )}
         </div>
