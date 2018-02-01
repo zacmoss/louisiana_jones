@@ -1,7 +1,9 @@
 .header__container {
+    position: relative;
     display: flex;
     //justify-content: space-between;
     margin: 1rem 2rem 0 2rem;
+    //padding: 1rem 2rem 0 2rem;
     //border: 1px black solid;
 
     @media (max-width: $desktop-breakpoint) {
@@ -10,6 +12,7 @@
 }
 
 .header__menuContainer {
+    position: relative;
     display: flex;
     padding-top: 2rem;
     width: 20%;
@@ -45,7 +48,7 @@
 }
 
 .popover {
-    position: relative;
+    //position: relative;
     //display: inline-block;
     display: block;
     position: absolute;
@@ -53,6 +56,12 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    //float: left;
+    //left: 0px;
+    //top: 0px;
+    .last {
+        border: none;
+    }
 
     a {
         color: black;
@@ -62,6 +71,8 @@
         &:hover {
             background-color: #f1f1f1
         }
+        //border-bottom: 1px black solid;
+
     }
 }
 
