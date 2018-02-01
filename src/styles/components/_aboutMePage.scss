@@ -1,0 +1,22 @@
+.aboutMePage__container {
+    margin: 0 2rem;
+    display: flex;
+}
+
+.aboutMePage__textContainer {
+    width: 50%;
+    //text-align: center;
+    margin-right: 1rem;
+}
+
+.aboutMePage__imgContainer {
+    width: 50%;
+    margin: auto;
+    //border: 1px solid black;
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

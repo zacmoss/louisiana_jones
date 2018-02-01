@@ -51,10 +51,10 @@ class Menu extends React.Component {
             <div className="popover">
               <Link to="/" onClick={this.handleClick}>Home</Link>
               <Link to="/articles" onClick={this.handleClick}>Articles</Link>
-              <Link to="/quotesPage" onClick={this.handleClick}>Inspirting Quotes</Link>
+              <Link to="/quotesPage" onClick={this.handleClick}>Inspiring Quotes</Link>
               <Link to="/construction" onClick={this.handleClick}>Best Pics</Link>
-              <Link to="/construction" onClick={this.handleClick}>About Me</Link>
-              <a href="/video.html" onClick={this.handleClick}>Video</a>
+              <Link to="/aboutMePage" onClick={this.handleClick}>About Me</Link>
+              <a href="https://www.youtube.com/watch?v=y7Snin6z9qM&t=1s" onClick={this.handleClick}>Euro Video</a>
               <Link to="/construction" onClick={this.handleClick}>Contact Zac</Link>
             </div>
            )}

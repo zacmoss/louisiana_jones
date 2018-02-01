@@ -9,6 +9,7 @@ import NotFoundPage from '../components/NotFoundPage';
 import ConstructionPage from '../components/ConstructionPage';
 import Article1 from '../components/articles/Article1';
 import QuotesPage from '../components/QuotesPage';
+import AboutMePage from '../components/AboutMePage';
 
 export const history = createHistory();
 
@@ -18,12 +19,13 @@ const AppRouter = () => ( // Client-Side Routing
             <Header />
             <hr  className="main__hr" />
             <Switch>
-                <Route path="/" component={HomePage} exact={true}/>
+                <Route path="/" component={HomePage} exact={true} />
                 <Route path="/articles" component={ArticlesPage} />
-                <Route path="/construction"component={ConstructionPage}/>
-                <Route path="/article1"component={Article1}/>
-                <Route path="/quotesPage" component={QuotesPage}/>
-                <Route component={NotFoundPage}/>
+                <Route path="/construction"component={ConstructionPage} />
+                <Route path="/article1"component={Article1} />
+                <Route path="/quotesPage" component={QuotesPage} />
+                <Route path="/aboutMePage" component={AboutMePage} />
+                <Route component={NotFoundPage} />
             </Switch>
             <Footer />
         </div>
