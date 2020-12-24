@@ -6,11 +6,7 @@ const AboutMeCard = () => (
             <div className="aboutMeCard__text">
                 <hr className="top"/>
                 <h2>Hey, I'm Zac.</h2>
-                <p>I'm a big believer in the power of kindness and compassion.
-                I see these raw human qualities in strangers everywhere
-                    I go. Those brief interactions give me hope that we can
-                    build a better world together. One that's inclusive to everyone. Maybe
-                    I'll run into you somewhere out there. Til then, Cheers!
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat venenatis diam a imperdiet. Pellentesque tristique nisi id nibh vestibulum, ac mattis nisl laoreet. Proin et eros gravida, vulputate purus sed, tempus nulla. Suspendisse potenti. Quisque ultrices sem id suscipit iaculis. Aenean orci orci, pellentesque et metus rutrum, accumsan aliquet augue. In vel nulla et augue venenatis congue. Vivamus bibendum imperdiet magna et bibendum. Donec mauris sapien, pretium ut porttitor vitae, vestibulum eu risus. Aliquam eleifend ac purus sit amet mollis. Curabitur euismod dapibus justo, et varius tortor lacinia a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Aliquam congue sagittis fermentum. Mauris viverra sagittis velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                 </p>
                 <hr className="bottom"/>
             </div>
